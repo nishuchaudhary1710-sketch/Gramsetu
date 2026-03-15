@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Landmark, Smartphone, Users } from "lucide-react";
 import { motion } from "motion/react";
+import communityVoiceImg from "/images/image-1.jpg";
 
 const sdgBadges = [
   { num: "1", label: "गरीबी उन्मूलन", color: "#e5243b" },
@@ -46,8 +47,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage:
-            "url('/images/hero-rural-india.dim_1200x600.jpg')",
+          backgroundImage: `url(${communityVoiceImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

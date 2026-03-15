@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { BookHeart, Briefcase, ShoppingBag, Users, Wallet } from "lucide-react";
+import communityVoiceImg from "/images/image-1.jpg";
 import { motion } from "motion/react";
 
 const programs = [
@@ -112,7 +113,7 @@ export default function WomenEmpowermentSection() {
 
             {/* Nari Shakti image */}
             <motion.img
-              src="/images/nari-shakti-women.dim_800x500.jpg"
+              src={communityVoiceImg}
               alt="नारी शक्ति — ग्रामीण महिला सशक्तिकरण"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}

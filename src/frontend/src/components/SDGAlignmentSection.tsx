@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Handshake, Landmark, TrendingDown, Users } from "lucide-react";
+import communityVoiceImg from "/images/image-1.jpg";
 import { motion } from "motion/react";
 
 const sdgs = [
@@ -96,7 +97,7 @@ export default function SDGAlignmentSection() {
           className="mb-12"
         >
           <img
-            src="/images/sdg-dashboard-rural.dim_800x500.jpg"
+            src={communityVoiceImg}
             alt="टिकाऊ ग्रामीण विकास - एसडीजी लक्ष्यों की ओर प्रगति"
             className="w-full max-h-72 object-cover rounded-2xl shadow-lg mx-auto opacity-90"
           />

@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Quote } from "lucide-react";
+import communityVoiceImg from "/images/image-1.jpg";
 import { motion } from "motion/react";
 
 const stories = [
@@ -108,7 +109,7 @@ export default function SuccessStoriesSection() {
           className="mb-12"
         >
           <img
-            src="/images/success-story-rural.dim_800x500.jpg"
+            src={communityVoiceImg}
             alt="सफलता की कहानियां — ग्रामीण भारत"
             className="w-full rounded-2xl object-cover shadow-lg"
             style={{ maxHeight: 300 }}

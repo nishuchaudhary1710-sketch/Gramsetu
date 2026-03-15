@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
 import { motion } from "motion/react";
+import communityVoiceImg from "/images/image-1.jpg";
 import { useState } from "react";
 
 type SchemeCategory =
@@ -143,7 +144,7 @@ export default function SchemesSection() {
           className="flex justify-center mb-10"
         >
           <img
-            src="/images/government-schemes-rural.dim_800x500.jpg"
+            src={communityVoiceImg}
             alt="सरकारी योजनाएं — ग्रामीण भारत"
             className="w-full max-w-2xl rounded-2xl object-cover shadow-lg"
             style={{ maxHeight: 280 }}

@@ -16,6 +16,7 @@ import {
   Smartphone,
   Wifi,
 } from "lucide-react";
+import communityVoiceImg from "/images/image-1.jpg";
 import { motion } from "motion/react";
 import { useState } from "react";
 
@@ -218,7 +219,7 @@ export default function DigitalLiteracySection() {
           className="mb-12"
         >
           <img
-            src="/images/digital-literacy-rural.dim_800x500.jpg"
+            src={communityVoiceImg}
             alt="ग्रामीण भारत में डिजिटल साक्षरता - लोग स्मार्टफोन सीखते हुए"
             className="w-full max-h-72 object-cover rounded-2xl shadow-lg mx-auto"
           />
