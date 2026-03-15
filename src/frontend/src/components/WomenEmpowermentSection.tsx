@@ -112,7 +112,7 @@ export default function WomenEmpowermentSection() {
 
             {/* Nari Shakti image */}
             <motion.img
-              src="/assets/generated/nari-shakti-women.dim_800x500.jpg"
+              src="/images/nari-shakti-women.dim_800x500.jpg"
               alt="नारी शक्ति — ग्रामीण महिला सशक्तिकरण"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}

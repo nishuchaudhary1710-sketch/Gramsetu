@@ -47,7 +47,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage:
-            "url('/assets/generated/hero-rural-india.dim_1200x600.jpg')",
+            "url('/images/hero-rural-india.dim_1200x600.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

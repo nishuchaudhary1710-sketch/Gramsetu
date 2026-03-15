@@ -108,7 +108,7 @@ export default function SuccessStoriesSection() {
           className="mb-12"
         >
           <img
-            src="/assets/generated/success-story-rural.dim_800x500.jpg"
+            src="/images/success-story-rural.dim_800x500.jpg"
             alt="सफलता की कहानियां — ग्रामीण भारत"
             className="w-full rounded-2xl object-cover shadow-lg"
             style={{ maxHeight: 300 }}

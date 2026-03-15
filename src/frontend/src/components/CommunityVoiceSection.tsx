@@ -180,7 +180,7 @@ export default function CommunityVoiceSection() {
           className="mb-12"
         >
           <img
-            src="/assets/generated/awaj-uthao-community.dim_800x500.jpg"
+            src="/images/awaj-uthao-community.dim_800x500.jpg"
             alt="ग्रामीण समुदाय एकत्रित होकर अपनी आवाज़ उठाते हुए"
             className="w-full max-h-72 object-cover rounded-2xl shadow-lg mx-auto"
           />

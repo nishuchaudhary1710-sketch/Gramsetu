@@ -143,7 +143,7 @@ export default function SchemesSection() {
           className="flex justify-center mb-10"
         >
           <img
-            src="/assets/generated/government-schemes-rural.dim_800x500.jpg"
+            src="/images/government-schemes-rural.dim_800x500.jpg"
             alt="सरकारी योजनाएं — ग्रामीण भारत"
             className="w-full max-w-2xl rounded-2xl object-cover shadow-lg"
             style={{ maxHeight: 280 }}

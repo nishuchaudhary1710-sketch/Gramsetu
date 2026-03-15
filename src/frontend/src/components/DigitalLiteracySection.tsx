@@ -218,7 +218,7 @@ export default function DigitalLiteracySection() {
           className="mb-12"
         >
           <img
-            src="/assets/generated/digital-literacy-rural.dim_800x500.jpg"
+            src="/images/digital-literacy-rural.dim_800x500.jpg"
             alt="ग्रामीण भारत में डिजिटल साक्षरता - लोग स्मार्टफोन सीखते हुए"
             className="w-full max-h-72 object-cover rounded-2xl shadow-lg mx-auto"
           />
